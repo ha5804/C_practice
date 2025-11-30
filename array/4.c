@@ -17,5 +17,6 @@ int main(){
     ptr1 = ptr2;
     ptr2 = temp;
     printf("swap to pointer : %d %d\n", *ptr1, *ptr2);
+    printf("swap to number: %d %d\n", num1, num2);
     return 0;
 }
